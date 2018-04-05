@@ -1,0 +1,117 @@
+body, input, textarea
+{
+	font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 10px;
+	color: #777;
+}
+
+input[type="text"], input[type="number"], input[type="text"][disabled], input[type="date"], textarea
+{
+	background : transparent;
+	border : none;
+}
+
+textarea
+{
+	width : 100%;
+	background : transparent;
+	border : none;
+	resize : none;
+}
+
+select{font-weight:bold;}
+
+.pad-b10{padding-bottom:10px;}
+
+.mar-b20 {margin-bottom:20px;}
+.mar-t2 {margin-top:2px;}
+.mar-t20 {margin-top:20px;}
+
+header{min-height:100px;}
+
+header > nav{background-color : #de4d4e!important; border-color : #de4d4e!important;}
+
+.navbar-brand{color : #FFF!important;}
+
+.wrapper { display : block; min-height : 950px;} 
+ 
+.right-box
+{
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+	padding:25px;
+}
+
+.form-control
+{
+	box-shadow : none;
+	-webkit-box-shadow : none;
+	padding : 6px 6px;
+	height : 30px;
+	font-size : 12px;
+}
+.btn { width : 100%; }
+
+#invoice-title
+{
+	text-align : center;
+	font-weight : bold;
+	font-size : 20px;
+}
+
+#logoWrapper
+{
+	height : 120px;
+	width : 120px;
+	border : 1px solid #de4d4e;
+	text-align : center;
+	padding-top : 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.currency
+{
+	padding : 6px 6px;
+	background-color : transparent;
+	border : none;
+	font-weight : bold;
+}
+
+
+.table thead tr th, .table tbody tr td, .table tfoot tr td {border-color : white;vertical-align:middle;}
+
+/*
+.item-table tbody tr:nth-child(even) {background: #ffd041}
+.item-table tbody tr:nth-child(odd) {background: #6e9ecf}
+*/
+
+/* panel color */
+.panel-info
+{
+	border-color : #de4d4e;
+}
+
+.panel-info > .panel-heading
+{
+	background-color : #de4d4e;
+	border-color : #de4d4e;
+	color : white;
+}
+
+#invoiceFootNote input{text-align : center;}
+#invoiceNote textarea{text-align : center;}
+.remove-logo{cursor : pointer;}
+textarea.form-control
+{
+	width : 100%;
+	background : transparent;
+	border : none;
+	resize : none;
+}
+
+footer p{text-align:center;}
+

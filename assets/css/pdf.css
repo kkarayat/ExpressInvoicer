@@ -1,0 +1,12 @@
+#invoiceTitleDiv
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+}
+.col{float: left;}
+.col2{ width: 50%;}
+.col3{ width: 25%;}
+.col19{ width: 75%;}
+.clear{float: none; clear: both;}
+
